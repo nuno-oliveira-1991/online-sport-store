@@ -1,0 +1,18 @@
+.btn {
+    border: none;
+    background-color: #E7E9EB;
+    padding: 17px 20px;
+    border-radius: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    //Para a Font
+    font-family: 'Inter', sans-serif;
+    color: #11293B;
+    font-size: 18px;
+
+    &.iconRight {
+        flex-direction: row-reverse;
+    }
+}
